@@ -412,6 +412,7 @@ CREATE TABLE products (
   products_date_added datetime NOT NULL,
   products_last_modified datetime,
   products_date_available datetime,
+
   products_weight decimal(5,2) NOT NULL,
   products_status tinyint(1) NOT NULL,
   products_tax_class_id int NOT NULL,

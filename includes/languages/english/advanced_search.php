@@ -43,6 +43,9 @@ define('TABLE_HEADING_MANUFACTURER', 'Manufacturer');
 define('TABLE_HEADING_QUANTITY', 'Quantity');
 define('TABLE_HEADING_PRICE', 'Price');
 define('TABLE_HEADING_WEIGHT', 'Weight');
+define('TABLE_HEADING_HEIGHT', 'Height');
+define('TABLE_HEADING_WIDTH', 'Width');
+define('TABLE_HEADING_DEPTH', 'Depth');
 define('TABLE_HEADING_BUY_NOW', 'Buy Now');
 
 define('TEXT_NO_PRODUCTS', 'There is no product that matches the search criteria.');
