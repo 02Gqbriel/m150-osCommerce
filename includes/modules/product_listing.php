@@ -63,6 +63,18 @@
         $lc_text = TABLE_HEADING_WEIGHT;
         $lc_align = 'right';
         break;
+      case 'PRODUCT_LIST_HEIGHT':
+        $lc_text = TABLE_HEADING_HEIGHT;
+        $lc_align = 'right';
+        break;
+      case 'PRODUCT_LIST_WIDTH':
+        $lc_text = TABLE_HEADING_WIDTH;
+        $lc_align = 'right';
+        break;
+      case 'PRODUCT_LIST_DEPTH':
+        $lc_text = TABLE_HEADING_DEPTH;
+        $lc_align = 'right';
+        break;
       case 'PRODUCT_LIST_IMAGE':
         $lc_text = TABLE_HEADING_IMAGE;
         $lc_align = 'center';
@@ -123,6 +135,15 @@
             break;
           case 'PRODUCT_LIST_WEIGHT':
             $prod_list_contents .= '        <td align="right">' . $listing['products_weight'] . '</td>';
+            break;
+          case 'PRODUCT_LIST_HEIGHT':
+            $prod_list_contents .= '        <td align="right">' . $listing['products_height'] . '</td>';
+            break;
+          case 'PRODUCT_LIST_WIDTH':
+            $prod_list_contents .= '        <td align="right">' . $listing['products_width'] . '</td>';
+            break;
+          case 'PRODUCT_LIST_DEPTH':
+            $prod_list_contents .= '        <td align="right">' . $listing['products_depth'] . '</td>';
             break;
           case 'PRODUCT_LIST_IMAGE':
             if (isset($HTTP_GET_VARS['manufacturers_id'])  && tep_not_null($HTTP_GET_VARS['manufacturers_id'])) {
