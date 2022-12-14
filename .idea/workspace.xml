@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9551c8ae-3550-4a99-a0cd-30eba4d8a1df" name="Default Changelist" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_search_result.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_search_result.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/classes/shopping_cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/classes/shopping_cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/languages/english/advanced_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/languages/english/advanced_search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/modules/product_listing.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/modules/product_listing.php" afterDir="false" />
+    <list default="true" id="9551c8ae-3550-4a99-a0cd-30eba4d8a1df" name="Default Changelist" comment="product_listing.php, advanced_search.php and advanced_search_result.php height, width and depth added">
+      <change beforePath="$PROJECT_DIR$/admin/includes/languages/english/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/languages/english/categories.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669203680445</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="product_listing.php, advanced_search.php and advanced_search_result.php height, width and depth added">
+      <created>1671013363917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671013363917</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="product_listing.php, advanced_search.php and advanced_search_result.php height, width and depth added" />
+    <option name="LAST_COMMIT_MESSAGE" value="product_listing.php, advanced_search.php and advanced_search_result.php height, width and depth added" />
   </component>
 </project>
