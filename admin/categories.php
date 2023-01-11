@@ -218,7 +218,7 @@
                                 'products_date_available' => $products_date_available,
                                 'products_weight' => (float)tep_db_prepare_input($HTTP_POST_VARS['products_weight']),
                                 'products_height' => (float)tep_db_prepare_input($HTTP_POST_VARS['products_height']),
-                                'products_width' => (float)tep_db_prepare_input($HTTP_POST_VARS['products_width']),
+                                'products_width' => abs((float)tep_db_prepare_input($HTTP_POST_VARS['products_width'])),
                                 'products_depth' => (float)tep_db_prepare_input($HTTP_POST_VARS['products_depth']),
                                 'products_status' => tep_db_prepare_input($HTTP_POST_VARS['products_status']),
                                 'products_tax_class_id' => tep_db_prepare_input($HTTP_POST_VARS['products_tax_class_id']),

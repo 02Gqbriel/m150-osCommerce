@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9551c8ae-3550-4a99-a0cd-30eba4d8a1df" name="Default Changelist" comment="product_listing.php, advanced_search.php and advanced_search_result.php height, width and depth added">
-      <change beforePath="$PROJECT_DIR$/admin/includes/languages/english/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/languages/english/categories.php" afterDir="false" />
+    <list default="true" id="9551c8ae-3550-4a99-a0cd-30eba4d8a1df" name="Default Changelist" comment="CM, KG">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/catalog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/catalog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/categories.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +59,8 @@
       <workItem from="1669200828866" duration="1398000" />
       <workItem from="1670404062914" duration="5576000" />
       <workItem from="1671003566834" duration="6393000" />
+      <workItem from="1671608748968" duration="5135000" />
+      <workItem from="1673424504522" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669203680445</created>
@@ -69,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671013363917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CM, KG">
+      <created>1671013796195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671013796195</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="product_listing.php, advanced_search.php and advanced_search_result.php height, width and depth added" />
-    <option name="LAST_COMMIT_MESSAGE" value="product_listing.php, advanced_search.php and advanced_search_result.php height, width and depth added" />
+    <MESSAGE value="CM, KG" />
+    <option name="LAST_COMMIT_MESSAGE" value="CM, KG" />
   </component>
 </project>
