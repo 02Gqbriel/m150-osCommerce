@@ -168,7 +168,7 @@
   function tep_draw_input_field($name, $value = '', $parameters = '', $type = 'text', $reinsert_value = true) {
     global $HTTP_GET_VARS, $HTTP_POST_VARS;
 
-    $field = '<input type="' . tep_output_string($type) . '" name="' . tep_output_string($name) . '"' ;
+    $field = '<input type="' . tep_output_string($type) . '" name="' . tep_output_string($name) . '" required min="0"';
 
     if ( ($reinsert_value == true) && ( (isset($HTTP_GET_VARS[$name]) && is_string($HTTP_GET_VARS[$name])) || (isset($HTTP_POST_VARS[$name]) && is_string($HTTP_POST_VARS[$name])) ) ) {
       if (isset($HTTP_GET_VARS[$name]) && is_string($HTTP_GET_VARS[$name])) {
@@ -184,7 +184,7 @@
 
     if (tep_not_null($parameters)) $field .= ' ' . $parameters;
 
-    $field .= ' required min="0" />';
+    $field .= ' />';
 
     return $field;
   }
