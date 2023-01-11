@@ -197,12 +197,11 @@
   function tep_draw_input_field($name, $value = '', $parameters = '', $required = false, $type = 'text', $reinsert_value = true) {
     global $HTTP_GET_VARS, $HTTP_POST_VARS;
     $minVal = 0;
-    $maxVAl = 1000;
 
     if($name == 'products_height' || $name == 'products_width' || $name == 'products_depth'){
-      $field = '<input type="number" name="' . tep_output_string($name)  . '" required min="' . $minVal . '" max="' . $maxVAl . '"';
+      $field = '<input type="number" name="' . tep_output_string($name)  . '" required min="' . $minVal . '"';
     } else {
-      $field = '<input type="' . tep_output_string($type) . '" name="' . tep_output_string($name)  . '" min="' . $minVal . '" max="' . $maxVAl . '"';
+      $field = '<input type="' . tep_output_string($type) . '" name="' . tep_output_string($name)  . '" min="' . $minVal . '"';
     }
 
     if ( ($reinsert_value == true) && ( (isset($HTTP_GET_VARS[$name]) && is_string($HTTP_GET_VARS[$name])) || (isset($HTTP_POST_VARS[$name]) && is_string($HTTP_POST_VARS[$name])) ) ) {
