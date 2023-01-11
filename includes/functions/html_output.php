@@ -184,7 +184,7 @@
 
     if (tep_not_null($parameters)) $field .= ' ' . $parameters;
 
-    $field .= ' min="0" />';
+    $field .= ' required min="0" />';
 
     return $field;
   }
